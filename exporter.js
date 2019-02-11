@@ -12,7 +12,8 @@ const map = [
   [ 'uptime', 'Process uptime' ],
   [ 'instances', 'Process instances' ],
   [ 'restarts', 'Process restarts' ],
-  [ 'loop_delay', 'V8 loop delay' ]
+  [ 'loop_delay', 'V8 loop delay' ],
+  [ 'all_failed_req', 'All Failed Requests' ]
 ]
 
 function pm2c (cmd, args = []) {
